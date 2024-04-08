@@ -123,18 +123,18 @@ console.log(mostPets);
 //      console.log `luckyResult` after the conditional has run.
 
 let luckyResult;
-switch(luckyResult){
+switch(luckyNumber){
   case 1: 
-  console.log("First is the worst");
+luckyResult = "First is the worst";
     break;
   case 2: 
-  console.log("Second is the best");
+  luckyResult = "Second is the best";
     break;
   case 3: 
-  console.log("Third is the one with the polka dot dress");
+  luckyResult = "Third is the one with the polka dot dress";
     break;
   default: 
-    console.log("Luck is what happens when preparation meets opportunity");
+  luckyResult = "Luck is what happens when preparation meets opportunity";
 }
 console.log(luckyResult);
 
@@ -143,7 +143,7 @@ console.log(luckyResult);
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
 
 
-  adventurous == true? "Adventures are great!" :"How about we stay home?"
+  adventurous == true ? "Adventures are great!" :"How about we stay home?"
  
  console.log (result);
 
